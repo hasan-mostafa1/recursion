@@ -13,6 +13,7 @@ function fibs(num) {
 // console.log(fibs(8));
 
 function fibsRec(num) {
+  console.log("This was printed recursively");
   if (num === 1) {
     return [0];
   } else if (num === 2) {
